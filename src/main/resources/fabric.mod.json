@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "autosell",
+  "version": "${version}",
+  "name": "Auto Sell",
+  "description": "Automatically sends /sell all every 80 to 90 seconds after joining a server.",
+  "authors": ["AVHISHEK"],
+  "environment": "client",
+  "entrypoints": { "client": ["com.avhishek.autosell.AutoSellClient"] },
+  "depends": {
+    "fabricloader": ">=0.18.6",
+    "minecraft": "~26.1.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
